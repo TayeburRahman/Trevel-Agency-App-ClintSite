@@ -39,7 +39,7 @@ const Header = () => {
               <Nav.Link
                 className="rounded pe-3 ps-3"
                 as={HashLink}
-                to="/home#services"
+                to="/home#service"
               >
                 <h6 className="text-manus p-2">SERVICES </h6>
               </Nav.Link>

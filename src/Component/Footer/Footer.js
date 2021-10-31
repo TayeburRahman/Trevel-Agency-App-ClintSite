@@ -55,7 +55,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="col-md-4 fw-bolder text-success col-sm-12">
-        <p className="text-decoration-underline">
+        <p className="text-decoration-underline text-email
+
+
+">
           Email: availlhospital@gmail.com
         </p>
         <h4 className="footer">Phone :</h4>

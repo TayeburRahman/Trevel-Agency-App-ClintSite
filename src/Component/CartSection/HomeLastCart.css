@@ -11,3 +11,10 @@
 .bg-custom{
     background-color:#E6F2F8;
 }
+.space{
+    line-height: 1.8;
+    word-spacing: 10px;
+}
+.color-text{
+    color: #1b6c29;
+}

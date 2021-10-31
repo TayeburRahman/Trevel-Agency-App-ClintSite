@@ -6,8 +6,9 @@ import './Service.css'
 const Service = () => {
   const { service } = useService([]);
   return (
-    <div className="text-left pt-4 container">
-      <h1 className="pb-3">Camping Ground</h1>
+    <div className="text-left mt-5 pb-5 service" id="service">
+    <div className="container">
+    <h1 className="pb-3 pt-3">Camping Ground</h1>
       <div className="text-left">
         <div className="row gap-3 service-row d-flex">
           {service.map((pd, index) => (
@@ -27,6 +28,7 @@ const Service = () => {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 };

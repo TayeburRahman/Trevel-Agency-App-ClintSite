@@ -7,7 +7,7 @@
   background-image: url("../../image/pE5y9B.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 520px;
 }
 .banner-buttons {
   text-decoration: none;
@@ -27,4 +27,7 @@
   background-color: #06ff51;
   color: #444040;
   text-align: center;
+}
+.text-prim{
+  color: #c7faaf;
 }

@@ -12,6 +12,7 @@ import ServiceDtl from "./Component/Service/ServiceDtl/ServiceDtl";
 import PlaceHolders from "./Component/PlaceHolder/PlaceHolders";
 import MyOrders from "./Component/MyOders/MyOrders";
 import Blog from "./Component/Blog/Blog";
+import NotFount from "./Component/NotFount/NotFount";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/service/:serviceId">
               <ServiceDtl></ServiceDtl>
+            </PrivateRoute>
+            <PrivateRoute path="*">
+              <NotFount></NotFount>
             </PrivateRoute>
           </Switch>
           <Footer></Footer>
