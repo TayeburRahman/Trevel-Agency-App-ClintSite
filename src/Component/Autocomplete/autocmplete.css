@@ -1,0 +1,18 @@
+.cartItem{
+    justify-content: space-evenly;
+    margin: -40px  9px 0px 10px;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.d-flex {
+    justify-content: space-evenly;
+
+}
+.icon-sizes{
+   width: 90%;
+   height: 40px;
+}

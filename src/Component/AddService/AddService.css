@@ -1,0 +1,11 @@
+.addService-text{
+    background-color: rgb(243, 241, 241);
+    color: rgb(245, 119, 2);
+}
+
+.buttons{
+    background-color: rgb(247, 87, 23);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}

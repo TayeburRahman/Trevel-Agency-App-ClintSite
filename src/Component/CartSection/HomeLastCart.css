@@ -1,0 +1,13 @@
+.text-left{
+    text-align: left;
+}
+.text-bottom {
+    margin-top: 39px;
+}
+.icon-size{
+    width: 35px;
+    height: 100px ;
+}
+.bg-custom{
+    background-color:#E6F2F8;
+}

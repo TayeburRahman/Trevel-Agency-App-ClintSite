@@ -1,0 +1,25 @@
+.selectOption{
+    padding: 0px 65px 0px 65px;
+}
+.optionSubmit{
+    border: 1px solid rgb(241, 79, 14);
+    background: rgb(241, 79, 14);
+    padding: 3px 67px 3px 67px;
+    color: rgb(255, 255, 255);
+
+}
+.optionSubmit:hover{
+    box-shadow: -1px 0px 27px -11px black;
+
+    border: 1px solid rgb(0, 132, 255);
+    background: rgb(250, 81, 2);
+
+}
+
+.From-Orders{
+    background-color: rgb(98, 81, 255);
+    padding:  20px 0px 75px 50px;
+}
+.text-color-w{
+    color: rgb(16, 255, 235);
+}

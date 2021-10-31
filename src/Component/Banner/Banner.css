@@ -1,0 +1,30 @@
+.banner {
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  background-image: url("../../image/pE5y9B.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.banner-buttons {
+  text-decoration: none;
+  border: 1px solid #03ec49;
+  background-color: #1ef45e;
+}
+
+.text-color-r {
+  color: rgb(239, 255, 19);
+}
+.banner-buttons a {
+  color: rgb(78, 77, 77);
+  text-decoration: none;
+}
+.banner-buttons:hover {
+  box-shadow: 0px 0px 30px -12px;
+  background-color: #06ff51;
+  color: #444040;
+  text-align: center;
+}
