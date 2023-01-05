@@ -1,12 +1,12 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import './AddService.css'
+import './AddService.css';
 
 const AddService = () => {
   const { reset, register, handleSubmit } = useForm();
 
   const onSubmit = (data) => { 
-    fetch('https://shrieking-labyrinth-61643.herokuapp.com/addService',{
+    fetch('https://trevel-agency-app-server.onrender.com/addService',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'

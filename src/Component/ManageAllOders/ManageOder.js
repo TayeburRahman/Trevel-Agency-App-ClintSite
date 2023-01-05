@@ -6,13 +6,13 @@ const Manageorder = () => {
   const [isDelete, setIsDelete] = useState(false);
   const [isUpdate, setIsUpdate] =useState(null)
   useEffect(() => {
-    fetch("https://shrieking-labyrinth-61643.herokuapp.com/booking")
+    fetch("https://trevel-agency-app-server.onrender.com/booking")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [isDelete, isUpdate]);
 
   const handleDeleteOrders = (id) => {
-    const url = `https://shrieking-labyrinth-61643.herokuapp.com/booking/${id}`;
+    const url = `https://trevel-agency-app-server.onrender.com/booking/${id}`;
     Swal.fire({
       title: "Are you sure?",
       text: "You won't be able to revert this!",
@@ -44,7 +44,7 @@ const Manageorder = () => {
   const handleUpdateOrders = (id) =>{
       console.log(id)
     id.state = 'Approved'
-    const url = `http://localhost:5000/booking/${id._id}`;
+    const url = `https://trevel-agency-app-server.onrender.com/booking/${id._id}`;
     fetch(url,{
     method: "PUT",
     headers:{ "content-type": "application/json" },

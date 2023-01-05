@@ -5,7 +5,7 @@ const useService = () => {
   console.log("serviceshfehg", service  );
 
   useEffect(() => {
-    fetch("https://shrieking-labyrinth-61643.herokuapp.com/service")
+    fetch("https://trevel-agency-app-server.onrender.com/service")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
