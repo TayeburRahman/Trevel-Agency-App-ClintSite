@@ -16,7 +16,7 @@ const PlaceHolders = () => {
 
   
   useEffect(() => {
-    fetch("https://shrieking-labyrinth-61643.herokuapp.com/service")
+    fetch("https://trevel-agency-app-server.onrender.com/service")
       .then((res) => res.json())
       .then((data) => setService(data.find((data) => data._id === serviceId)));
   }, [serviceId]);
@@ -32,7 +32,7 @@ const PlaceHolders = () => {
     data.campName= campName
     data.state = 'Pending..';
     
-    fetch('https://shrieking-labyrinth-61643.herokuapp.com/booking', {
+    fetch('https://trevel-agency-app-server.onrender.com/booking', {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
