@@ -8,7 +8,7 @@ const MyOrders = () => {
   const [orders, setOrders] = useState([{}]);
   console.log(orders);
   useEffect(() => {
-    fetch(`https://shrieking-labyrinth-61643.herokuapp.com/booking/${email}`)
+    fetch(`https://trevel-agency-app-server.onrender.com/booking/${email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [email]);

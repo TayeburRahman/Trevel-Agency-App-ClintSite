@@ -1,6 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import PlaceHolders from "../../PlaceHolder/PlaceHolders";
  
@@ -9,7 +7,7 @@ const ServiceDtl = () => {
   const { serviceId } = useParams();
   const [service, setService] = useState([]);
    useEffect(() => {
-    fetch("https://shrieking-labyrinth-61643.herokuapp.com/service")
+    fetch("https://trevel-agency-app-server.onrender.com/service")
       .then((res) => res.json())
       .then((data) => setService(data.find((data) => data._id === serviceId)));
   }, [serviceId]);
